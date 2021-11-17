@@ -1,0 +1,205 @@
+select:required:invalid{
+  color:#666;
+}
+option [value=""][disabled]{
+  display:none;
+}
+option{
+  color:#000;
+}
+body {
+    background: url(https://exchangegwinnett.com/wp-content/uploads/2019/06/StarbucksCoffee.png);
+    background-size: cover;
+    background-color:  #067550;
+    
+  }
+::placeholder{
+  font-family: "Open Sans";
+}
+  header{
+    text-align: center;
+    font-family: "Open Sans";
+    color: white;
+  }
+
+  #description{
+    font-family: "Open Sans";
+    font-weight: 400;  
+  }
+  #title{
+    font-weight: 800;
+  }
+  form{
+    font-family: "Open Sans";
+    color: black;
+    background-color:#ebdbc8;
+    width: 600px;
+    height: 1075px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+      
+  }
+  #input{
+    display: flex;
+    flex-direction:column;
+    width: 550px;
+    margin: auto;
+    padding-top: 25px;
+    
+    
+  }
+  #name-label{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px;
+  
+  }
+  #email-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #number-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    outline: none;
+  }
+  #number{
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    border:  2px solid #f4f2f5;
+    outline: none;
+  }  
+  #email{
+    padding-left: 12px;
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    border:  2px solid #f4f2f5;
+    outline: none;
+  }  
+
+  #name{
+    padding-left: 12px;
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    border:  2px solid #ebdbc8;
+    outline: none;
+   
+    
+  }
+  
+  #dropdown-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  #dropdownmenu{
+    width: 550px;
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    
+  }
+  #dropdown{
+    padding-left: 12px;
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    border:  2px solid #f4f2f5;
+    
+  }
+  #radiomenu{
+    width:550px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;  
+    
+  }
+  span{
+    font-weight:400;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;    
+  }
+  #Unsatisfied{
+    margin-left: 0px;
+   
+  }
+  #Satisfied{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  #Very-Satisfied{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  #checkboxmenu{
+    width:550px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;  
+  }
+  #drinks{
+    margin-left: 0px;
+  }
+  #food{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #wifi {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #Ambience {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  } 
+  #textarea-div{
+    display: flex;
+    flex-direction: column;
+    width:550px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+ #textarea-label{
+   font-size: 20px;
+   padding-bottom: 10px;
+ }
+ #textarea {
+   height: 100px;
+   padding-left: 12px;
+   padding-top: 10px;
+   font-family: "Open Sans";
+   border: none;
+   outline: none;
+ }
+ #submit {
+   display: block;
+   width: 550px;
+   margin: auto;
+   text-align: center;
+   height: 50px;
+   margin-bottom: 25px;
+   padding: 10px;
+   font-family: "Open Sans";
+   background-color: #1e3932;
+   color: white;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+ } 
+  
+  
+  

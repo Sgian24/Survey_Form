@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link href="C:\Users\Sunny Gian\Desktop\survey\survey.css" rel="stylesheet" type="text/css">
+    <title>Starbucks Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">STARBUCKS SURVEY FORM</h1>
+      <p id="description">STARBUCKS VALUES YOUR OPINION!</p>   
+    </header>
+    <main>
+      <form id="survey-form">
+       <div id="input"> 
+        <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your first and last name" required></input>
+        <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email" required>
+        <label id="number-label" for="number">How many times have you visited Starbucks in the past week?</label>
+          <input id="number" type="number" placeholder="Number of visits" min="0" max="15" required>
+        </div>
+        <div id="dropdownmenu">
+        <label id="dropdown-label" for="dropdown">Were you able to get what you were looking for?</label>
+          <select name="yes/no" id="dropdown" required>
+            <option value="" disabled selected>Yes/No</option>
+            <option value=" Yes">Yes</option>
+            <option value=" No">No</option>
+          </select>
+        </div>
+        <div id="radiomenu">
+        <span>How satistied were you with your lastest visit?</span>
+        <div id="radio1">
+          <input id="Unsatisfied" value="Unsatisfied" type="radio" name="satisfaction"></input>
+          <label id="radio-label" for="Unsatisfied">Unsatisfied</label>
+        </div>
+      <div>
+          <input id="Satisfied" value="Satisfied" type="radio" name="satisfaction"></input>
+          <label id="radio-label2" for="Satisfied">Satisfied</label>
+        </div>
+    <div>
+       <input id="Very-Satisfied" value="Very-Satisfied" type="radio" name="satisfaction"></input>
+       <label id="radio-label3" for="Very-Satisfied">Very Satisfied</label>
+      </div>
+    </div>
+    <div id="checkboxmenu">
+  <span>What do you like most about Starbucks? (Select all that apply)</span>
+  <div>
+    <input id="drinks" value="drinks" type="checkbox" name="Like"></input>
+    <label id="checkbox-label" for="drinks">Drinks</label>
+  </div>
+  <div>
+   <input id="food" value="food" type="checkbox" name="Like"></input>
+   <label id="checkbox-label2" for="food">Food</label>
+  </div>
+  <div>
+    <input id="wifi" value="wifi" type="checkbox" name="Like"></input>
+    <label id="checkbox-label3" for="wifi">Wifi</label>
+  </div>
+  <div>
+    <input id="Ambience" value="Ambience" type="checkbox" name="Like"></input>
+    <label id="checkbox-label4" for="Ambience">Ambience</label>
+  </div>
+    </div>
+  <div id="textarea-div">
+  <label id="textarea-label" for="textarea">Addtional suggestions are appreciated!</label>
+  <textarea id="textarea" name="comments" placeholder="Enter suggestions here..."></textarea></div>
+  <button id="submit" type="submit">Submit</button>
+    </form>
+    </main>
+    </body>
+  
